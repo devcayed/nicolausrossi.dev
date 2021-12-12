@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+:root {
+    --primary: #0061FF;
+    --secondary: #00FF87;
+    --accent: #FF665A;
+}
+
+html, body {
+    overflow-x: hidden;
+    font-family: 'Arvo', serif;
+    font-color: black;
+}
+
+.animated-gradient {
+    background: linear-gradient(-45deg, var(--primary), var(--secondary));
+    background-size: 400% 400%;
+    animation: animated-gradient 30s ease infinite;
+}
+
+.fly-in {
+    animation: fly-in 1s ease;
+}
+
+.typed-title {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.back-button {
+    transition-duration: .4s;
+}
+
+.back-button:hover {
+    color: var(--accent);
+}
+
+@keyframes animated-gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fly-in {
+    0% {
+        transform: translate(0, 100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
