@@ -11,10 +11,10 @@ const Main = () => {
             <Helmet>
                 <title>NR | Home</title>
             </Helmet>
-            <div className="lg:w-256 md:w-96">
-                <TypedTitle strings={['oh look, a wild nico appeared!', 'i (try to) build stuff on the internet']} />
+            <div className="lg:w-256">
+                <TypedTitle strings={['oh look, a wild nico appeared!', 'i (try to) build stuff on the web.']} />
             </div>
-            <div className="">
+            <div>
                 <Paragraph className="mt-5">
                     hey, i am nico
                 </Paragraph>
