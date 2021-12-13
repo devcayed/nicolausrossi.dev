@@ -28,11 +28,21 @@ html, body {
 }
 
 .back-button {
-    transition-duration: .4s;
+    transition-duration: .2s;
 }
 
 .back-button:hover {
     color: var(--accent);
+}
+
+.easter-egg {
+    transition-duration: .2s;
+}
+
+.easter-egg:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: var(--accent);
 }
 
 @keyframes animated-gradient {

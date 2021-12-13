@@ -24,7 +24,7 @@
     "start": "craco start",
     "build": "craco build",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build/"
+    "deploy": "npm run build && cp ./build/index.html ./build/404.html && echo nicolausrossi.dev > ./build/CNAME && gh-pages -d ./build/"
   },
   "eslintConfig": {
     "extends": [

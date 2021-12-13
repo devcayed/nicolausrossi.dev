@@ -12,7 +12,7 @@ const TypedTitle = (props: any) => {
                     delay: 'natural',
                     deleteSpeed: 'natural',
                     cursor: '_',
-                    devMode: false
+                    devMode: false,
                 }}
             />
         </h1>

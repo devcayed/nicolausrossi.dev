@@ -11,7 +11,7 @@ const App = () => {
         <HelmetProvider>
             <div className="flex items-center justify-center h-screen w-screen animated-gradient">
                 <div
-                    className="h-max md:h-auto w-screen md:w-auto md:rounded-xl absolute z-10 mx-auto p-10
+                    className="h-max md:h-auto md:rounded-xl absolute z-10 mx-auto p-10
                         bg-gray-100 drop-shadow-2xl text-center fly-in">
                     <Router>
                         <Routes>
