@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Hyperlink } from '../hyperlinks/Hyperlink'
+import { Hyperlink } from './Hyperlink'
 
 const HyperlinkList = (props: any) => {
     return (

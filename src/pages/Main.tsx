@@ -12,29 +12,25 @@ const Main = () => {
                 <title>NR | Home</title>
             </Helmet>
             <div className="lg:w-256">
-                <TypedTitle strings={['oh look, a wild nico appeared!', 'i (try to) build stuff on the web.']} />
+                <TypedTitle strings={['oh look, a wild nico appeared!', 'i build cool stuff on the web.']} />
             </div>
-            <div>
-                <Paragraph className="mt-5">
-                    hey, i am nico
-                </Paragraph>
-                <Paragraph className="mt-3">
-                    a computer science student who likes building
-                </Paragraph>
-                <Paragraph>
-                    cool and fun stuff on the internet, learning new
-                </Paragraph>
-                <Paragraph>
-                    technologies and {' '}
-                    <a
-                        href="https://www.youtube.com/watch?v=pMHTQ8r9pQU"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="easter-egg"
-                    >
-                        listening to really loud drum and bass
-                    </a>
-                </Paragraph>
+            <Paragraph className="mt-5">
+                hey, i am nico,
+            </Paragraph>
+            <div className="flex justify-center">
+                <div className="w-96 text-left">
+                    <Paragraph className="mt-3">
+                        a bachelors student for computer science who enjoys building fun and awesome stuff on the internet, learning modern technologies and {' '}
+                        <a
+                            href="https://www.youtube.com/watch?v=pMHTQ8r9pQU"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="easter-egg"
+                        >
+                            listening to really loud drum and bass.
+                        </a>
+                    </Paragraph>
+                </div>
             </div>
             <Paragraph className="mt-8">
                 check out my socials!
